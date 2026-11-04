@@ -28,8 +28,9 @@ def velikost(arr):
         if(arr[i] > 10):
             a.append(arr[i])
     return a
-
 def uredi(arr):
     return sort(arr)
-
-print(uredi(arr))
+def dodaj(arr):
+    a = float(input("dej: "))
+    arr.append(a)
+print(dodaj(arr))
