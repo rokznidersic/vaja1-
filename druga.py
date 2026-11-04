@@ -16,6 +16,11 @@ def soda(arr):
         if(deljivost(arr[i])):
             v += 1
     return v
+def liha(arr):
+    v = 0
+    for i in range(len arr):
+        if(not deljivost(arr[i])):
+            v += 1
+    return v
 
-
-print(soda(arr))
+print(liha(arr))
