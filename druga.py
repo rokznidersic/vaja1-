@@ -8,8 +8,14 @@ def najvecji(arr):
     return max(arr)
 def najmansi(arr):
     return min(arr)
+def deljivost(st):
+    return st % 2
+def soda(arr):
+    v = 0
+    for i in range(len arr):
+        if(deljivost(arr[i])):
+            v += 1
+    return v
 
 
-
-
-print(najmansi(arr))
+print(soda(arr))
