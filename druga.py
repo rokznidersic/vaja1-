@@ -6,9 +6,10 @@ def povprecna(arr):
     return sum(arr) / len(arr)
 def najvecji(arr):
     return max(arr)
+def najmansi(arr):
+    return min(arr)
 
 
 
 
-
-print(najvecji(arr))
+print(najmansi(arr))
