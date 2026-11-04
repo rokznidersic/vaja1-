@@ -29,7 +29,7 @@ def velikost(arr):
             a.append(arr[i])
     return a
 def uredi(arr):
-    return sort(arr)
+    return sorted(arr)
 def dodaj(arr):
     a = float(input("dej: "))
     arr.append(a)
