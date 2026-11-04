@@ -22,5 +22,12 @@ def liha(arr):
         if(not deljivost(arr[i])):
             v += 1
     return v
+def velikost(arr):
+    a = []
+    for i in range(len(arr)):
+        if(arr[i] > 10):
+            a.append(arr[i])
+    return a
 
-print(liha(arr))
+
+print(velikost(arr))
