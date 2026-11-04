@@ -33,4 +33,12 @@ def uredi(arr):
 def dodaj(arr):
     a = float(input("dej: "))
     arr.append(a)
+def brisi(arr):
+    a = float(input("dej: "))
+    l = len(arr)
+    arr.delete(a)
+    if(l == len(arr)):
+        print(Grrrr)
+        return
+    return arr
 print(dodaj(arr))
