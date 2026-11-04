@@ -4,10 +4,11 @@ def vsota(arr):
     return sum(arr)
 def povprecna(arr):
     return sum(arr) / len(arr)
+def najvecji(arr):
+    return max(arr)
 
 
 
 
 
-
-print(povprecna(arr))
+print(najvecji(arr))
