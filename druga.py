@@ -42,3 +42,6 @@ def brisi(arr):
         return
     return arr
 print(dodaj(arr))
+
+
+
