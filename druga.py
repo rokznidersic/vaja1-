@@ -29,5 +29,7 @@ def velikost(arr):
             a.append(arr[i])
     return a
 
+def uredi(arr):
+    return sort(arr)
 
-print(velikost(arr))
+print(uredi(arr))
